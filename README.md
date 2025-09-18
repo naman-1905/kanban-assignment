@@ -40,7 +40,7 @@ This helps in identifying the priority. For new features, I have a few ideas:-
 - The reordering of the tasks in the same column is missing, can be added.</n>
 - A due date for every task can be added.
 - Google OAuth or Database with a proper backend to allow users to login and manage the tasks individually.
-For organizations, the asignees and the assigned can be segregated with a DB like PostgreSQL or MongoDB (PostgreSQL preferred), similar to what Trello or JIRA do, if this is for production and will be used by the company's internal management.
+For organizations, the asignees and the assigned can be segregated with a DB like PostgreSQL or MongoDB (MongoDB since the Data is a JSON), similar to what Trello or JIRA do, if this is for production and will be used by the company's internal management.
 
 ![Priority Select](/images/Screenshot1.png)
 
