@@ -11,6 +11,7 @@
 - storage.js:- This file contains the logic for data storage, i.e. the tasks are stored in localStorage with unique IDs. For this I used the Universally Unique Identifier (UUID for short) which generates a unique string for the task, which helps storing it under the JSON data in the tasks key in local Storage. For the fallback I used, the current Date, which in combination with UUID, provides the data for the column. Kindly check the screenshots below for reference:-
 
 ![Tasks Storage locally](/images/Screenshot2.png)
+![Tasks Storage locally](/images/Screenshot3.png)
 
 - render.js :- This is the DOM handling component which creates the elements, sorts tasks by priority and reorders without re-rendering the entire page. To avoid re-renders, renderNow function compares the desired structure of sorted tasks with the current DOM and DOM changes are made. The file ensures that only the missing tasks are created, for existing they are updated or kept same, and outdated tasks are removed. This keeps the page responsive and avoids re-renders on drag and drop or create/delete.
 
