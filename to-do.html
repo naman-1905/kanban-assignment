@@ -12,6 +12,7 @@
     .task.dragging { opacity: 0.5; }
     .dropzone { min-height: 50px; padding: 5px; border: 1px dashed #ccc; }
     button { margin-left: 5px; }
+    .drop-hover { background: #eef; }
   </style>
 </head>
 <body>
@@ -41,7 +42,9 @@
       <div class="dropzone" id="done"></div>
     </div>
   </div>
-<script type="module" src="src/main.js"></script>
-
+  <script src="storage.js"></script>
+  <script src="render.js"></script>
+  <script src="dragdrop.js"></script>
+  <script src="main.js"></script>
 </body>
 </html>
